@@ -32,7 +32,7 @@
 }
 
 .site-nav {
-  padding: 15px 80px;
+  padding: 0px 80px;
 }
 
 .top-nav {
@@ -51,7 +51,7 @@
 }
 
 .lock-navbar {
-  background-color: #e70404;
+  background-color: #45A6BA;
 }
 .lock-navbar ul {
   margin-left: 50px;
@@ -85,9 +85,9 @@
   letter-spacing: 1px;
 }
 .slider-btns .slider-outline-btn:hover {
-  background-color: #e70404;
+  background-color: #45A6BA;
   transition: 0.5s;
-  border-color: #e70404;
+  border-color: #45A6BA;
 }
 .slider-btns .slider-fill-btn {
   color: #fff;
@@ -100,9 +100,9 @@
   letter-spacing: 1px;
 }
 .slider-btns .slider-fill-btn:hover {
-  background-color: #e70404;
+  background-color: #45A6BA;
   transition: 0.5s;
-  border-color: #e70404;
+  border-color: #45A6BA;
 }
 
 .section-2 {
@@ -116,14 +116,13 @@
 .lock-service-cards .card-img-top {
   width: 100%;
   min-height: 300px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .lock-service-cards .card-body h5 {
   font-family: "Poppins-bold";
 }
 .lock-service-cards .card-body a {
-  color: #e70404;
+  color: #45A6BA;
   text-decoration: none;
 }
 .lock-service-cards .card-body p {
@@ -155,7 +154,7 @@
 }
 .section-3 .section-3-content .section-3-btn {
   color: #fff;
-  background-color: #e70404;
+  background-color: #45A6BA;
   border-radius: 0;
   padding: 10px 30px;
   text-transform: uppercase;
@@ -189,9 +188,9 @@
   letter-spacing: 1px;
 }
 .section-3-form button:hover {
-  background-color: #e70404;
+  background-color: #45A6BA;
   transition: 0.5s;
-  border-color: #e70404;
+  border-color: #45A6BA;
 }
 
 .section-4 {
@@ -226,10 +225,10 @@
   font-size: 23px;
 }
 .section-4 .section-4-content a:hover {
-  background-color: #e70404;
+  background-color: #45A6BA;
   transition: 0.5s;
   color: white;
-  border-color: #e70404;
+  border-color: #45A6BA;
 }
 
 .section-5 {
@@ -238,14 +237,13 @@
 .section-5 .section-5-img img {
   width: 100%;
   height: 350px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .section-5 .section-5-content {
   padding: 0px 40px;
 }
 .section-5 .section-5-content .sec-5-small-heading {
-  color: #e70404;
+  color: #45A6BA;
   letter-spacing: 4px;
   font-size: 14px;
 }
@@ -260,7 +258,7 @@
   letter-spacing: 0.6px;
 }
 .section-5 .section-5-content a {
-  color: #e70404;
+  color: #45A6BA;
   text-decoration: none;
 }
 .section-5 .section-5-content a .right-arrow-icon {
@@ -323,7 +321,7 @@
 }
 
 .section-7 {
-  background-color: #e70404;
+  background-color: #45A6BA;
 }
 .section-7 .sec-7-content {
   display: flex;
@@ -347,14 +345,14 @@
   letter-spacing: 1px;
 }
 .section-7 .sec-7-btn:hover {
-  background-color: #e70404;
+  background-color: #45A6BA;
   transition: 0.5s;
-  border-color: #e70404;
+  border-color: #45A6BA;
 }
 .section-7 .sec-7-btn:hover {
   background-color: white;
   border-color: white;
-  color: #e70404;
+  color: #45A6BA;
 }
 
 footer {
@@ -362,7 +360,7 @@ footer {
   color: white;
 }
 footer h5 {
-  color: #e70404;
+  color: #45A6BA;
   font-family: "Poppins-medium";
 }
 footer .social-icons {
@@ -387,9 +385,9 @@ footer .footer-list li a {
   color: white;
   text-decoration: none;
 }
-footer .sitemap {
-  width: 200px;
-  height: 200px;
+footer .map iframe {
+  width: 250px;
+  height: 250px;
 }
 
 .last-section {
@@ -441,4 +439,6 @@ footer .sitemap {
   .map .sitemap {
     width: 200px;
   }
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */

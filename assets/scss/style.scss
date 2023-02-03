@@ -1,7 +1,7 @@
 @import "fonts";
 
 $dull-black: #353535;
-$red: #e70404;
+$red: #45A6BA;
 $dark-gray: #596570;
 $gray: #d8d8d8;
 $light-gray: #f5f5f5;
@@ -89,7 +89,7 @@ $poppinsExtraBold: "Poppins-Extrabold";
   box-sizing: border-box;
 }
 .site-nav {
-  padding: 15px 80px;
+  padding: 0px 80px;
 }
 .top-nav {
   display: flex;
@@ -356,9 +356,11 @@ footer {
       }
     }
   }
-  .sitemap {
-    width: 200px;
-    height: 200px;
+  .map {
+    iframe {
+      width: 250px;
+      height: 250px;
+    }
   }
 }
 .last-section {
@@ -416,3 +418,4 @@ footer {
     }
   }
 }
+
